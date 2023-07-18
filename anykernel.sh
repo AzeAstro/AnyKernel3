@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=SixTeen Kernel by Kyvangka1610
+kernel.string=NetHunter kernel by atlas_c0 
 do.devicecheck=0
 do.modules=0
 do.systemless=0
