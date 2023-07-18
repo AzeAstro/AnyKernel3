@@ -2,12 +2,12 @@ BRANCH := $(shell git -C .. rev-parse --abbrev-ref HEAD)
 
 ifeq ($(findstring Q,$(BRANCH)),Q)
 ifeq ($(findstring Q,$(BRANCH)),Q)
-    NAME := SixTeen•Kernel•Q•Ginkgo•Willow
+    NAME := NetHunter-OneUI
 else
-    NAME := SixTeen•Kernel•Q•Ginkgo•Willow
+    NAME := NetHunter-OneUI
 endif
 else
-    NAME := SixTeen•Kernel•Q•Ginkgo•Willow
+    NAME := NetHunter-OneUI
 endif
 
 DATE := $(shell date "+%Y%m%d")
