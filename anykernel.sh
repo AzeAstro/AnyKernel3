@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=NetHunter kernel by atlas_c0 
+kernel.string=NetHunter kernel by AtlasTheGreat 
 do.devicecheck=0
 do.modules=0
 do.systemless=0
@@ -15,7 +15,7 @@ device.name2=
 device.name3=
 device.name4=
 device.name5=
-supported.versions=12 - 13
+supported.versions=13
 supported.patchlevels=
 '; } # end properties
 
