@@ -2,12 +2,12 @@ BRANCH := $(shell git -C .. rev-parse --abbrev-ref HEAD)
 
 ifeq ($(findstring Q,$(BRANCH)),Q)
 ifeq ($(findstring Q,$(BRANCH)),Q)
-    NAME := NetHunter-OneUI
+    NAME := NetHunter-AOSP
 else
-    NAME := NetHunter-OneUI
+    NAME := NetHunter-AOSP
 endif
 else
-    NAME := NetHunter-OneUI
+    NAME := NetHunter-AOSP
 endif
 
 DATE := $(shell date "+%Y%m%d")
